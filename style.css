@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin: 0;
+	
+}
+
+.header_area .navbar-brand{
+	padding:0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+	padding:0 calc(5rem + 0.66667vw) 0 calc(5rem + 0.66667vw);
+}
+
+.header_area .nav-item .nav-link{
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 1.7rem;
+	color: #fff;
+}
+
+/* end of navigation */
+
+/* main site */
+
+.site-banner .site-title{
+	padding-top: 10%;
+	font-weight:500;
+}
+
+.site-banner .site-title{
+	font-size: calc(0.5rem + 1.5vw);
+}
+
+.site-banner .site-name{
+	font-size: calc(0.7rem + 2.2vw);
+}
+
+.site-banner img{
+	padding: calc(2rem + 2vw) 0;
+}
+
+.site-banner .title-text{
+	letter-spacing: .9rem 2.2rem;
+}
+
+.buttons{
+	
+	margin: calc(.1rem + 0.1vw) calc(0.8rem + 0.5vw);
+	font: normal 500 1rem/1.2rem;
+	border: 3px solid #ff9408;
+	border-radius: 4px;
+}
+
+.buttons:hover{
+	background-color: #ff9408;
+	color: #fff;
+}
+
+
+/* end of main site */
+
+/* About section */
+
+.backcolor{
+	background-color: rgb(235,235,235);
+}
+.about-padding{
+	margin: calc(4rem + 1vw);
+}
+
+.para{
+	font-size: calc(.7rem + .6667vw);
+}
+
+.statubarmargin{
+	margin-top: calc(2rem + 2vw);
+}
+.statubar{
+	background-color: #014d4e;
+	color: #fff;	
+}
+
+.progress-space{
+	margin: 20px;
+	height:30px
+}
+/* End of About section */
+
+/*  Services area */
+
+.h2styling{
+	color: #014d4e;
+	font-weight: 600;
+}
+.services-img{
+	font-size: calc(2rem + .6667vw);
+	background-color: #ff9408;
+	color: #fff;
+	margin: calc(.5rem + .6667vw);
+}
+
+/*  End of Services area */
+
+.footer-bac{
+	background-color: #ff9408;
+	color: #fff;
+}
